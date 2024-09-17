@@ -1,0 +1,32 @@
+# loop program 102 
+#Aiden Clarke 10/11/23
+
+def main ():
+    user_input = str(input("Is today a good day?"))
+
+    if (user_input == "y"):
+            print ("Yes it is.")
+            main()    
+    elif user_input == "n" or"N": 
+        print ( "Yesterday is history and tomorrow is a mystery but to day is a gift, that is why it is called the present.") 
+        return
+        
+       
+
+    
+    
+
+
+main()
+
+
+
+
+
+
+
+
+
+
+
+
